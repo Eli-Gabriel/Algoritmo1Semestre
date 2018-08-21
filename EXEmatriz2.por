@@ -27,17 +27,19 @@ programa{
 				matR2[i][j] = matB[i][j]-matA[i][j]
 			}
 		}
+		
+		escreva("=====MATRIZ SOMA=====")
 
 		para(inteiro i = 0; i<2; i++){
-			escreva("=====MATRIZ SOMA=====")
 			escreva("\nlinha ", i+1, ": ")
 			para(inteiro j = 0; j<2; j++){
 				escreva(matR[i][j], ", ")
 			}
 		}
+		
+		escreva("=====MATRIZ SUBTRAÇÃO=====")
 
 		para(inteiro i = 0; i<2; i++){
-			escreva("=====MATRIZ SUBTRAÇÃO=====")
 			escreva("\nlinha ", i+1, ": ")
 			para(inteiro j = 0; j<2; j++){
 				escreva(matR2[i][j], ", ")
@@ -53,7 +55,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 976; 
+ * @POSICAO-CURSOR = 823; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
