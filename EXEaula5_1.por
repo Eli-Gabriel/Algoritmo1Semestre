@@ -43,11 +43,10 @@ programa{
 				escreva(matB[i][j], ", ")
 			}
 		}
-		escreva("\n")
 
 		//matR
-		para(inteiro i=0; i<3; i++){
-			escreva("linha", i+1, ": ")
+		para(inteiro i=0; i<3; i++){//tambem da pra armazenar os valores em um vetor
+			escreva("\nLinha", i+1, ": ")
 			para(inteiro j=0; j<3; j++){
 				se(i==j){
 					escreva(matB[i][j], ", ")
@@ -62,7 +61,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 924; 
+ * @POSICAO-CURSOR = 1011; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
